@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Shadows+Into+Light&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:#36454F;
+}
+nav{
+    background-color: rgb(47,10,40);
+    color: white;
+    height: 55px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    padding:0px 12px;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Shadows Into Light', cursive;
+}
+nav ul{
+    list-style-type: none;
+
+}
+.gameContainer{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.container
+{
+    display: grid;
+    grid-template-rows: repeat(3, 10vw);
+    grid-template-columns: repeat(3,10vw);
+    font-family: 'roboto';
+    /* position: relative; */
+}
+.box{
+    border:2px solid black;
+    font-size: 7vw;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.box:hover{
+    background-color:rgb(245, 177, 177);
+}
+.info {
+    font-size: 30px;
+    font-family: roboto;
+}
+#reset {
+    margin: 0 23px;
+    padding: 8px 26px;
+    background-color: darkgreen;
+    color: wheat;
+    border-radius: 20px;
+    cursor: pointer;
+    font-family: 'Baloo Bhaina 2';
+    font-size: 15px;
+    font-weight: bolder;
+}
+.gameInfo{
+    padding: 0 46px;
+}
+.gameInfo h1{
+ color: wheat;
+}
+span{
+    color: wheat;
+}
+
+#margin{
+  margin-top: 15px;
+}
+
+.imgbox img{
+    width: 0;
+    transition: width 1s ease-in-out;
+}
+.br-0{
+    border-right: 0;
+}
+.bl-0{
+    border-left: 0;
+}
+.bt-0{
+    border-top:0;
+}
+.bb-0{
+    border-bottom: 0;
+}
